@@ -104,7 +104,6 @@
 	/* display: block;
 	padding-bottom: 20px; */
 	margin-bottom: 50px;
-	margin-left: 10%;
 }
 .figure{
 	
@@ -158,13 +157,16 @@
 
 .column{
 	/* padding-right: 5%; */
+	padding-left: 5%;
+	padding-top: 10%;
 }
 .row{
 	/* display: flex; */
 }
 
 .company, .templates, .queries{
-	font-size: 1.6rem;
+	font-size: 1.2rem;
+	font-family: "Inter", sans-serif;
 }
 
 .second-heading h1{
@@ -175,9 +177,11 @@
 }
 .second-heading p{
 	color: hsla(0, 0%, 100%, 0.75);
+	font-size: 0.8rem;
 }
 .column p{
 	color: hsla(0, 0%, 100%, 0.6);
+	font-size: 0.6rem;
 }
 .column span{
 	color: hsl(0, 0%, 100%);
